@@ -44,7 +44,7 @@ nav, .navbar-fixed {
 }
 
 .sidenav-trigger:hover {
-  color: var(--main-bg);
+  color: var(--bg-color);
 }
 /* Color de la barra lateral */
 .sidenav {
