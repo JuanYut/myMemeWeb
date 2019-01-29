@@ -1,0 +1,136 @@
+/* Custom Properties */
+:root {
+  --main-font: 'Raleway';
+  --alternate-font: sans-serif;
+  --font-size: 16px;
+  --line-height: 1.6;
+
+  --main-color: #FFF;
+  --main-modal-color: #138319;
+  --second-color: black;
+  --second-modal-color: rgba(23, 18, 38, .80);
+
+  --bg-color: #2CC434;
+  --bg-modal-color: rgba(0, 0, 0, .5);
+  --bg-alternate-color: #F3F3F3;
+  --border-color: #DDD;
+
+  --action-color: #4caf50;
+
+  --text-color: #333;
+  --title-color: var(--second-color);
+
+  --link-color: var(--main-color);
+  --link-hover-color: var(--second-color);
+
+  --logo-width: 4rem;
+  --logo-height: 4rem;
+  --logo-spacing: .5rem;
+
+  --nav-height: 56px;
+}
+
+/* ----------------------------------------------------------------- */
+nav, .navbar-fixed {
+ background-color: var(--second-color);
+ height: var(--nav-height);
+ line-height: var(--nav-height);
+ border-bottom: 1px groove white;
+}
+
+.brand-logo img {
+  padding: var(--logo-spacing);
+  max-height: var(--nav-height);
+}
+
+.sidenav-trigger:hover {
+  color: var(--main-bg);
+}
+/* Color de la barra lateral */
+.sidenav {
+  top: var(--nav-height);
+  background-color: var(--second-color);
+  border: 1px groove white;
+}
+/* Background de las letras del menu lateral */
+.sidenav li:hover, .desktop-nav li:hover {
+  background-color: var(--main-color);
+  transition: all .4s ease;
+}
+/* Letras negras del menu lateral */
+.sidenav li > a:hover {
+  color: var(--second-color);
+ }
+/* Letras blancas del navbar */
+.sidenav li > a,
+.desktop-nav a {
+  color: var(--main-color);
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all .4s ease;
+}
+/* Sombra del navbar */
+ .desktop-nav a:hover {
+   color: var(--second-color);
+   background-color: transparent;
+ }
+
+ .green { background-color: var(--action-color) !important; }
+
+ .green-text { color: var(--action-color) !important; }
+
+ .section {
+   width: 100%;
+   height: 100vh;
+ }
+
+ /* ------------------------------ My Styles ------------------------------ */
+ .HeroImage, .Services {
+   min-height: calc(100vh - var(--nav-height));
+   background-size: auto;
+   /* background-color: rgb(108, 130, 145);
+   background-image: linear-gradient(135deg, rgba(47, 145, 224, .91),
+   rgba(7, 31, 51, .97) 79%);
+   background-image: linear-gradient(131deg, rgba(28, 118, 173, .92),
+   rgba(83, 184, 152, 1)); */
+   background-color: black;
+ }
+
+ .myImgDrake img {
+   margin-top: 10px;
+ }
+
+ .Services img {
+   height: 260px;
+ }
+
+  .myContentProcesos h2{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* ------------------------------ Media Queries Medium ------------------------------ */
+  @media only screen and (min-width: 601px) {
+
+  }
+
+  /* ------------------------------ Media Queries Large ------------------------------ */
+  @media only screen and (min-width: 993px) {
+    .HeroImage-containers{
+      min-height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Services .myContainerCards {
+      min-height: inherit;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  /* ------------------------------ Media Queries ExtraLarge ------------------------------ */
+  @media only screen and (min-width: 1201px) {
+
+  }
