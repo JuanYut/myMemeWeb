@@ -145,7 +145,7 @@ nav, .navbar-fixed {
   /* ------------------------------ Media Queries Medium ------------------------------ */
   @media only screen and (min-width: 601px) {
     .Services .container .card img {
-      height: 180px;
+      height: 300px;
     }
   }
 
@@ -163,7 +163,7 @@ nav, .navbar-fixed {
       justify-content: center;
     }
     .Services .myContentProcesos {
-      margin-top: 180px;
+      margin-top: 220px;
     }
     .Website h2 {
       margin-top: 40px;
