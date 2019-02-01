@@ -94,6 +94,21 @@ nav, .navbar-fixed {
    height: auto;
  }
 
+ blockquote {
+   border-left: 5px solid var(--second-color);
+   color: var(--second-color);
+ }
+
+.myFirstCustomer figure img {
+  height: 300px;
+  width: 600px;
+}
+
+.myMainCustomer figure img {
+  height: 300px;
+  width: 250px;
+}
+
  /* ------------------------------ My Styles ------------------------------ */
  .HeroImage, .Services, .Website {
    min-height: calc(100vh - var(--nav-height));
