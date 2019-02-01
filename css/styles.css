@@ -109,6 +109,27 @@ nav, .navbar-fixed {
   width: 250px;
 }
 
+/* label color */
+.input-field label,
+.input-field .prefix.active {
+  color: var(--second-color) !important;
+}
+/* label focus color */
+.input-field input:focus + label,
+.input-field textarea:focus + label {
+  color: var(--bg-color) !important;
+}
+/* label underline focus color */
+.input-field input:focus,
+.input-field textarea:focus {
+  border-bottom: 1px solid var(--bg-color) !important;
+  box-shadow: 0 1px 0 0 var(--bg-color) !important;
+}
+
+.input-field .btn { background-color: var(--bg-color); }
+
+.input-field .btn:hover { background-color: var(--main-modal-color); }
+
  /* ------------------------------ My Styles ------------------------------ */
  .HeroImage, .Services, .Website {
    min-height: calc(100vh - var(--nav-height));
@@ -141,6 +162,23 @@ nav, .navbar-fixed {
 
   .ResponsiveSites .container {
     float: center;
+  }
+
+  .SinglePage,
+  .MultiPage {
+    background-image: url('/img/overwatch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .MultiPage {
+    background-image: url('/img/overwatch-1.jpg')
+  }
+
+  .SinglePage > .section,
+  .MultiPage > .section {
+    background-color: var(--second-modal-color);
+    height: inherit;
   }
 
   .Footer {
@@ -176,10 +214,11 @@ nav, .navbar-fixed {
       min-height: inherit;
       display: flex;
       justify-content: center;
+      align-items: center;
     }
-    .Services .myContentProcesos {
+    /* .Services .myContentProcesos {
       margin-top: 220px;
-    }
+    } */
     .Website h2 {
       margin-top: 40px;
     }
