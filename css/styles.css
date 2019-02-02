@@ -184,14 +184,10 @@ nav, .navbar-fixed {
   }
 
   .AboutInfo {
-    padding: .3em;
-    font-weight: bold;
-    font-size: 2em;
+    padding: 3em;
+    /* font-weight: bold; */
+    /* font-size: 2em; */
     /* background-color: var(--second-modal-color); */
-  }
-
-  .AboutInfo h2, h3 {
-    font-weight: bold;
   }
 
   .Footer {
