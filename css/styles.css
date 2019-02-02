@@ -101,7 +101,7 @@ nav, .navbar-fixed {
 
 .myFirstCustomer figure img {
   height: 300px;
-  width: 600px;
+  width: 200px;
 }
 
 .myMainCustomer figure img {
@@ -209,10 +209,10 @@ nav, .navbar-fixed {
     .Services .container .card img {
       height: 300px;
     }
-    .myFirstCustomer figure img {
+    /* .myFirstCustomer figure img {
       height: 50px;
       width: 50px;
-    }
+    } */
   }
 
   /* ------------------------------ Media Queries Large ------------------------------ */
