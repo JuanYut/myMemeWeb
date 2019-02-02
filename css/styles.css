@@ -209,6 +209,10 @@ nav, .navbar-fixed {
     .Services .container .card img {
       height: 300px;
     }
+    .myFirstCustomer figure img {
+      height: 50px;
+      width: 50px;
+    }
   }
 
   /* ------------------------------ Media Queries Large ------------------------------ */
