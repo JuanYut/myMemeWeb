@@ -166,13 +166,13 @@ nav, .navbar-fixed {
 
   .SinglePage,
   .MultiPage {
-    background-image: url('./img/overwatch.jpg');
+    background-image: url('../img/overwatch.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .MultiPage {
-    background-image: url('./img/overwatch-1.jpg')
+    background-image: url('../img/overwatch-1.jpg')
   }
 
   .SinglePage > .section,
