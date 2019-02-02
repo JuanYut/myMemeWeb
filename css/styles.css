@@ -164,6 +164,8 @@ nav, .navbar-fixed {
     float: center;
   }
 
+  /* pequeño error */
+
   .SinglePage,
   .MultiPage {
     background-image: url('../img/overwatch.jpg');
