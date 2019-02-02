@@ -99,10 +99,10 @@ nav, .navbar-fixed {
    color: var(--second-color);
  }
 
-.myFirstCustomer figure img {
+/* .myFirstCustomer figure img {
   height: 300px;
-  width: 200px;
-}
+  width: 600px;
+} */
 
 .myMainCustomer figure img {
   height: 300px;
@@ -209,10 +209,10 @@ nav, .navbar-fixed {
     .Services .container .card img {
       height: 300px;
     }
-    /* .myFirstCustomer figure img {
-      height: 50px;
-      width: 50px;
-    } */
+    .myFirstCustomer figure img {
+      height: 300px;
+      width: 100px;
+    }
   }
 
   /* ------------------------------ Media Queries Large ------------------------------ */
@@ -234,6 +234,10 @@ nav, .navbar-fixed {
     } */
     .Website h2 {
       margin-top: 40px;
+    }
+    .myFirstCustomer figure img {
+      height: 300px;
+      width: 600px;
     }
   }
 
